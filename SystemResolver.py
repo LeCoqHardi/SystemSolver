@@ -1,4 +1,7 @@
 import numpy as np # Importation de la bilbiothèque "numpy"
+import os
+
+os.system("clear")
 
 
 # SystemResolver est un script Python permettant de résoudre des systèmes à 2 ou 3 équations (et surement plus dans le futur)
@@ -23,33 +26,33 @@ if nbEqua == 2: # Dois-je réellement expliquer la fonction if ? Bah en gros ça
 #-------------------------------------------------Sous-Partie de la première équation------------------------------------------------------------
 
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la première inconnue de la première équation (sans la lettre)") # Encore un print
+        print ("[1ERE EQUATION] Entrez la valeur de la première inconnue de la première équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val1 = int(input()) # Variable contenant la valeur de la première inconnue de la première équation
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la deuxième inconnue de la première équation (sans la lettre)") # Encore un print
+        print ("[1ERE EQUATION] Entrez la valeur de la deuxième inconnue de la première équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val2 = int(input()) # Variable contenant la valeur de la dexième inconnue de la première équation
 
 #-------------------------------------------------Sous-Partie de la deuxième équation------------------------------------------------------------
 
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la première inconnue de la deuxième équation (sans la lettre)") # Encore un print
+        print ("[2EME EQUATION] Entrez la valeur de la première inconnue de la deuxième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val3 = int(input()) # Variable contenant la valeur de la première inconnue de la deuxième équation
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la deuxième inconnue de la deuxième équation (sans la lettre)") # Encore un print
+        print ("[2EME EQUATION] Entrez la valeur de la deuxième inconnue de la deuxième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val4 = int(input()) # Variable contenant la valeur de la dexième inconnue de la deuxième équation
 
 #-------------------------------------------------Sous-Partie des résultats----------------------------------------------------------------------
 
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez le résultat de la première équation") # Encore un print
+        print ("[RESULTAT 1] Entrez le résultat de la première équation") # Encore un print
         print("-----------------------------------------------") # Encore un print
         res1 = int(input()) # Variable contenant le résultat de la première équation
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez le résultat de la deuxième équation") # Encore un print
+        print ("[RESULTAT 2] Entrez le résultat de la deuxième équation") # Encore un print
         print("-----------------------------------------------") # Encore un print
         res2 = int(input()) # Variable contenant le résultat de la deuxième équation
         a = np.array([[val1,val2], [val3,val4]]) # Commande compliquée de la bibliothèque "numpy" 
@@ -72,60 +75,60 @@ if nbEqua == 3:
 #-----------------------------------------------Sous-Partie de la première équation---------------------------------------------------------------
 
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la première inconnue de la première équation (sans la lettre)") # Encore un print
+        print ("[1ERE EQUATION] Entrez la valeur de la première inconnue de la première équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val1 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la deuxième inconnue de la première équation (sans la lettre)") # Encore un print
+        print ("[1ERE EQUATION] Entrez la valeur de la deuxième inconnue de la première équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val2 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la troisième inconnue de la première équation (sans la lettre)") # Encore un print
+        print ("[1ERE EQUATION] Entrez la valeur de la troisième inconnue de la première équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val3 = int(input()) # voir au dessus
 
 #-----------------------------------------------Sous-Partie de la deuxième équation----------------------------------------------------------------
 
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la première inconnue de la deuxième équation (sans la lettre)") # Encore un print
+        print ("[2EME EQUATION] Entrez la valeur de la première inconnue de la deuxième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val4 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la deuxième inconnue de la deuxième équation (sans la lettre)") # Encore un print
+        print ("[2EME EQUATION] Entrez la valeur de la deuxième inconnue de la deuxième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val5 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la troisième inconnue de la deuxième équation (sans la lettre)") # Encore un print
+        print ("[2EME EQUATION] Entrez la valeur de la troisième inconnue de la deuxième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val6 = int(input()) # voir au dessus
 
 #-----------------------------------------------Sous-Partie de la troisième équation---------------------------------------------------------------
 
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la première inconnue de la troisième équation (sans la lettre)") # Encore un print
+        print ("[3EME EQUATION] Entrez la valeur de la première inconnue de la troisième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val7 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la deuxième inconnue de la troisième équation (sans la lettre)") # Encore un print
+        print ("[3EME EQUATION] Entrez la valeur de la deuxième inconnue de la troisième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val8 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez la valeur de la troisième inconnue de la troisième équation (sans la lettre)") # Encore un print
+        print ("[3EME EQUATION] Entrez la valeur de la troisième inconnue de la troisième équation (sans la lettre)") # Encore un print
         print("-----------------------------------------------") # Encore un print
         val9 = int(input()) # voir au dessus
 
 #------------------------------------------------Sous-Partie des résultats-------------------------------------------------------------------------- 
 
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez le résultat de la première équation") # Encore un print
+        print ("[RESULTAT 1] Entrez le résultat de la première équation") # Encore un print
         print("-----------------------------------------------") # Encore un print
         res1 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print ("Entrez le résultat de la deuxième équation") # Encore un print
+        print ("[RESULTAT 2] Entrez le résultat de la deuxième équation") # Encore un print
         print("-----------------------------------------------") # Encore un print
         res2 = int(input()) # voir au dessus
         print("-----------------------------------------------") # Encore un print
-        print("Entrez le résultat de la troisième équation") # Encore un print
+        print("[RESULTAT 3] Entrez le résultat de la troisième équation") # Encore un print
         print("-----------------------------------------------") # Encore un print
         res3 = int(input()) # voir au dessus
         a = np.array([[val1,val2,val3], [val4,val5,val6], [val7,val8,val9]]) # voir au dessus
@@ -134,4 +137,7 @@ if nbEqua == 3:
         print("=============================================") # Encore un print
         print("Vos inconnues sont respectivement égales à", x) # Encore un print mais lui il affiche les résultats de vos inconnues
         print("=============================================") # Encore un print
+
+if nbEqua > 3:
+        print ("Non pris en charge actuellement.")
 
