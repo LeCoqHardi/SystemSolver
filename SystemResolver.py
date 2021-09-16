@@ -1,7 +1,13 @@
 import numpy as np # Importation de la bilbiothèque "numpy"
 import os
+import platform
 
-os.system("clear")
+OperatingSystem = platform.system()
+
+if OperatingSystem == "Windows":
+        os.system('cls')
+if OperatingSystem == "Linux":
+        os.system('clear')
 
 
 # SystemResolver est un script Python permettant de résoudre des systèmes à 2 ou 3 équations (et surement plus dans le futur)
