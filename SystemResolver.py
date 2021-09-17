@@ -6,7 +6,7 @@ OperatingSystem = platform.system()
 
 if OperatingSystem == "Windows":
         os.system('cls')
-if OperatingSystem == "Linux":
+else:
         os.system('clear')
 
 
