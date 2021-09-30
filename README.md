@@ -1,7 +1,7 @@
 <img src="assets/logo.png">
 
-# SystemSolver
-SystemSolver est un script Python super simple qui permet de résoudre des matrices et des systèmes simplement en entrant la valeur des inconnues !
+# Maths-Useful
+Pleins de petits scripts Python pour vous faciliter la vie en maths !
 
 # Fonctionnement
 
