@@ -1,3 +1,7 @@
+# SystemResolver est un script Python permettant de résoudre des systèmes à 2 ou 3 équations (et surement plus dans le futur)
+# Créé par LeCoqHardi, disponible sur Github.
+# https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__ 
+
 import numpy as np # Importation de la bilbiothèque "numpy"
 import os
 import platform
@@ -10,8 +14,6 @@ else:
         os.system('clear')
 
 
-# SystemResolver est un script Python permettant de résoudre des systèmes à 2 ou 3 équations (et surement plus dans le futur)
-# Créé par LeCoqHardi, disponible sur Github. 
 
 print("================[SystemResolver]================") # Bon en gros les print ça affiche voilà 
 print("Combien votre système contient-il d'équations ?") # Encore un print 

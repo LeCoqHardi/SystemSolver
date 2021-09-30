@@ -1,3 +1,7 @@
+# Derivator est un script python permettant de dériver automatiquement une fonction.
+# Créé par LeCoqHardi, disponible sur Github.
+# https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__ 
+
 from sympy import *
 import os
 import platform
