@@ -1,18 +1,18 @@
 # Derivator est un script python permettant de dériver automatiquement une fonction.
 # Créé par LeCoqHardi, disponible sur Github.
-# https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__ 
+# https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__
 
 from sympy import *
 import os
 import platform
 
 # This part is used to detect the OS you use and clear the console.
-OperatingSystem = platform.system() 
+OperatingSystem = platform.system()
 
 if OperatingSystem == "Windows":
-        os.system('cls')
+    os.system("cls")
 else:
-        os.system('clear')
+    os.system("clear")
 
 # -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
@@ -30,9 +30,9 @@ print("---------------------------------")
 print("Les inconnues à utiliser sont x, y et z.")
 
 # Partie préparation de sympy
-x = Symbol('x')
-y = Symbol('y')
-z = Symbol('z')
+x = Symbol("x")
+y = Symbol("y")
+z = Symbol("z")
 # -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
 
