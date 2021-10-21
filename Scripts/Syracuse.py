@@ -34,19 +34,23 @@ print("\033[1;37;40m\n")
 nbEntre = int(input("Type the number you want to try : "))
 nbTest = nbEntre
 nbTours = 0
+nbToursOdd = 0
+nbToursEven = 0
 print("You want to try the number", "\033[1;32;40m", nbEntre, "\033[1;37;40m :")
 
 
 while nbTest != 1: # while the number entered by the user is different to 1
     if (nbTest % 2) == 0: # if it's even
         nbTest = nbTest / 2 # divide by 2
+        nbToursEven = nbToursEven + 1
     else: #if it's odd
         nbTest = nbTest * 3 + 1 # Times 3 + 1
+        nbToursOdd = nbToursOdd + 1
 
     nbTours = nbTours + 1 # adds one to loops
 
 # This part shows the result
-print("For the number ", "\033[1;32;40m", nbEntre, "\033[1;37;40m  there was ", "\033[1;36;40m", nbTours, "\033[1;37;40m  loops before getting 1") # shows number entered and loops turns
+print("For the number ", "\033[1;32;40m", nbEntre, "\033[1;37;40m  there was ", "\033[1;36;40m", nbTours, "\033[1;37;40m  loops before getting 1, with : ","\033[1;33;40m", nbToursOdd, "\033[1;37;40m odd loops and ","\033[1;33;40m", nbToursEven, " \033[1;37;40meven loops."  ) # shows number entered and loops turns
 
 # This part asks if you want to stay or leave
 leave = 0
