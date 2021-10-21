@@ -3,7 +3,6 @@
 
 # https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__ // https://www.github.com/lecoqhardi
 
-from sympy import *
 import os
 import platform
 import sys
