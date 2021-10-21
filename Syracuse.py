@@ -23,7 +23,7 @@ else:
     os.system("clear")
 
 
-print("===============================================================")
+print("\033[1;31;40m===============================================================\n")
 print(" _____                                                   ")
 print("/  ___|                                                  ")
 print("\ `--. _   _ _ __ __ _  ___ _   _ ___  ___   _ __  _   _ ")
@@ -33,11 +33,11 @@ print("\____/ \__, |_|  \__,_|\___|\__,_|___/\___(_) .__/ \__, |")
 print("        __/ |                               | |     __/ |")
 print("       |___/                                |_|    |___/ ")
 print("===============================================================")
-print("")
+print("\033[1;37;40m\n")
 nbEntre = int(input("Type the number you want to try : "))
 nbTest = nbEntre
 nbTours = 0
-print("You want to try the number ", nbEntre, " :")
+print("You want to try the number", "\033[1;32;40m", nbEntre, "\033[1;37;40m :")
 
 while nbTest != 1 or nbTours > 50000:
     if (nbTest % 2) == 0:
@@ -48,4 +48,4 @@ while nbTest != 1 or nbTours > 50000:
     nbTours = nbTours + 1
 
 
-print("For the number ", nbEntre, " there was ", nbTours, " loops before getting 1")
+print("For the number ", "\033[1;32;40m", nbEntre, "\033[1;37;40m  there was ", "\033[1;36;40m", nbTours, "\033[1;37;40m  loops before getting 1")
