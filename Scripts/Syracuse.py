@@ -5,7 +5,7 @@ import sys
 
 
 # Syracuse.py is a python script is a python script used to try a number given by the user to the collatz conjecture
-# Made by LeCoqHardi, available on Github
+# Made by LeCoqHardi in 2 hours, available on Github
 
 # https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__ // https://www.github.com/lecoqhardi
 
