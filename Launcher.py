@@ -2,7 +2,7 @@
 # Made by LeCoqHardi, available on Github
 
 # https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__ // https://www.github.com/lecoqhardi
-# All the imports are importants
+# All the imports are importants, don't forget to install python library with pip
 import os
 import platform
 import sys
