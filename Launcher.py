@@ -1,6 +1,6 @@
 # Launcher.py is the main script, use it to choose between all little scripts. (you can still use littles scripts alone)
 # Made by LeCoqHardi, available on Github
-
+# Free to use
 # https://www.twitch.tv/lecoqhardi // https://www.twitter.com/LeCoqHardi__ // https://www.github.com/lecoqhardi
 # All the imports are importants, don't forget to install python library with pip
 import os
