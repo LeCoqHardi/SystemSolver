@@ -4,8 +4,11 @@
 A lot of little scripts to make your math-life easyer !
 
 # How to use :
-Install numpy and sympy to your system, and then launch the Launcher.py script, choose what you want to do, and enjoy !
 
+First Step : Install the requierements by using the command `pip3 install -r requirement.txt`
 
+Second Step : Launch the file "Launcher" by using the command `./Launcher`
 
+Third Step : Enjoy !
 
+(Shitty app less useful than XCas or Geogebra lmao)
