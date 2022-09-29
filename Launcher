@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 # Launcher.py is the main script, use it to choose between all little scripts. (you can still use littles scripts alone)
 # Made by LeCoqHardi, available on Github
 # Free to use
